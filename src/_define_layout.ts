@@ -4,9 +4,9 @@ import type { NextPageWithLayout, PageLayout } from "./_next_types";
 
 export const defineLayout =
   (layout: PageLayout) =>
-  (page: NextPage): NextPageWithLayout => {
-    const pageWithLayout: NextPageWithLayout = page;
-    pageWithLayout.getLayout = layout; // eslint-disable-line functional/immutable-data
+  <P = {}, IP = P>(page: NextPage<P, IP>): NextPageWithLayout<P, IP> => {
+    const pageWithLayout: NextPageWithLayout<P, IP> = page;
+    pageWithLayout.getLayout = layout;
 
     return pageWithLayout;
   };
