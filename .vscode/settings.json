@@ -11,7 +11,7 @@
   "javascript.validate.enable": true,
   "prettier.enable": true,
   "typescript.format.enable": false,
-  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.preferences.importModuleSpecifierEnding": "minimal",
   "typescript.preferences.includePackageJsonAutoImports": "auto",
   "typescript.suggest.autoImports": true,
