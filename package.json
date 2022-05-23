@@ -1,6 +1,6 @@
 {
   "name": "@mozisan/next-layout",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple & type-safe way to implement page layout for Next.js",
   "keywords": [
     "Next.js",
