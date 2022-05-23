@@ -1,4 +1,6 @@
-import type { NextPage, NextPageWithLayout, PageLayout } from "next";
+import type { NextPage } from "next";
+
+import type { NextPageWithLayout, PageLayout } from "./_next_types";
 
 export const defineLayout =
   (layout: PageLayout) =>
