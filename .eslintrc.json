@@ -1,0 +1,6 @@
+{
+  "extends": ["@mozisan/eslint-config"],
+  "parserOptions": {
+    "project": "tsconfig.json"
+  }
+}
